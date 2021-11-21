@@ -10,21 +10,21 @@
 &nbsp;
 
 ## Project Architecture
-1- **Loading the Data:** Because the dataset is assumed as large that does not fit into our RAM, I implemented the analyzes on a sample that took randomly from the original dataset. I chose sample size 500.000. I assume that randomly chosen samples represent the population's characteristics.  
+**1- Loading the Data:** Because the dataset is assumed as large that does not fit into our RAM, I implemented the analyzes on a sample that took randomly from the original dataset. I chose sample size 500.000. I assume that randomly chosen samples represent the population's characteristics.  
 
-2- **Exploratory Data Analysis:** I did a very quick EDA on the sample in order to grasp the structure of the data and decide which operations should I do or which columns are informative.  
+**2- Exploratory Data Analysis:** I did a very quick EDA on the sample in order to grasp the structure of the data and decide which operations should I do or which columns are informative.  
 
-3- **Preprocessing the Text Data:** This step includes operations such as: converting all letters to lower, tokenization, removing punctuations and stop words.  
+**3- Preprocessing the Text Data:** This step includes operations such as: converting all letters to lower, tokenization, removing punctuations and stop words.  
 
-4- **Selecting Word2Vec Model:** After text preprocessing, I define the Word2Vec model here. I investigate two methods: train my own model and use a pre-trained word vectors. Pre-trained one is trained on Google News Dataset. This vectors can be downloaded [**here**](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit)  
+**4- Selecting Word2Vec Model:** After text preprocessing, I define the Word2Vec model here. I investigate two methods: train my own model and use a pre-trained word vectors. Pre-trained one is trained on Google News Dataset. This vectors can be downloaded [**here**](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit)  
 
-5- **Feature Engineering:** In this step, I converted the words into 300-dimensional vectors and took the average of them.
+**5- Feature Engineering:** In this step, I converted the words into 300-dimensional vectors and took the average of them.
 
-6- **Splitting the Data:** In order to obtain train and test sets, I used train_test_split method. I set the test size to 20.  
+**6- Splitting the Data:** In order to obtain train and test sets, I used train_test_split method. I set the test size to 20.  
 
-7- **Building Neural Network:** Before the final step, I built a Neural Network with two hidden layers, each hidden layer containing 256 nodes.  
+**7- Building Neural Network:** Before the final step, I built a Neural Network with two hidden layers, each hidden layer containing 256 nodes.  
 
-8- **Fitting and Training the Algorithms:** In the last step, I trained and evaluated the chosen algorithms, then plotted the graphs of result to make comparisons easily.
+**8- Fitting and Training the Algorithms:** In the last step, I trained and evaluated the chosen algorithms, then plotted the graphs of result to make comparisons easily.
 
 &nbsp;
 
