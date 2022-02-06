@@ -1,5 +1,5 @@
 # Predicting the Up Votes of News Using Natural Language Processing
-&nbsp; This project aims to find the best machine learning technique that predicts the 'Up Votes' of the news. In that regard, I approached the problem as a regression problem. I also investigated whether training a Word2Vec model or using pre-trained word vectors enhances the performance of algorithms. After getting word vectors, I used them as a feature to train and evaluate various ML algorithms.
+&nbsp; The aim of this project is to find the best machine learning technique that predicts the 'Up Votes' of the news. In that regard, I approached the problem as a regression problem. I also investigated whether training a Word2Vec model or using pre-trained word vectors enhances the performance of algorithms. After getting word vectors, I used them as a feature to train and evaluate various ML algorithms.
 
 &nbsp;
 
